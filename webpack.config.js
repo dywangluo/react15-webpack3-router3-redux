@@ -68,7 +68,7 @@ module.exports = {
         })
     ],
     devServer: {
-        host: '192.168.84.100',
+        host: '127.0.0.1',
         port: 9009,
         contentBase: ROOT_PATH,
         hot:true,
