@@ -1,0 +1,36 @@
+/**
+ * Author：dengyu
+ * Time：2017/11/23
+ * Description：Description
+ */
+
+.login-wrap {
+  position: relative;
+  background: #d9e0e7;
+  height: 100%;
+  .login-content {
+    position: absolute;
+    top: 23.5%;
+    width: 100%;
+    background: #2d353c;
+    padding: 40px;
+    .login-main {
+      margin: 0 auto;
+      width: 400px;
+      .ant-input, .ant-btn {
+        height: 40px;
+      }
+      .login-form-button {
+        width: 100%;
+      }
+      .login-logo{
+        text-align: center;
+        img{
+          width: 220px;
+          margin-top: -17px;
+          margin-bottom: -17px;
+        }
+      }
+    }
+  }
+}
