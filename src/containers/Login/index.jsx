@@ -11,7 +11,7 @@ import { Form, Icon, Input, Button } from 'antd'
 import md5 from 'md5'
 import './index.scss'
 import { login } from '../../actions/login'
-import logoWirte from '../../components/Logo/img/logo-wirte.svg'
+import logoWirte from '../../components/Logo/img/logo-white.jpg'
 
 const FormItem = Form.Item;
 class Login extends Component {
