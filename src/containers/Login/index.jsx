@@ -11,6 +11,7 @@ import { Form, Icon, Input, Button } from 'antd'
 import md5 from 'md5'
 import './index.scss'
 import { login } from '../../actions/login'
+import logoWirte from '../../components/Logo/img/logo-wirte.svg'
 
 const FormItem = Form.Item;
 class Login extends Component {
@@ -30,6 +31,9 @@ class Login extends Component {
             <div className="login-content">
                 <div className="login-main">
                     <Form onSubmit={this.handleSubmit} className="login-form">
+                        <FormItem className="login-logo" >
+                            <img src={logoWirte} />
+                        </FormItem>
                         <FormItem>
                             {getFieldDecorator('id', {
                                 rules: [{required: true, message: '请输入账号'}]
